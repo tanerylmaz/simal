@@ -38,6 +38,8 @@ import N from '../src/utils/images/N.svg'
 import Hizmet from './pages/Hizmet/Hizmet';
 import Drone from './pages/Services/Drone';
 import Sayisalyapi from './pages/Services/Sayisalyapi';
+import Imarplani from './pages/Services/Imarplani';
+import Madde18 from './pages/Services/Madde18';
 
 
 
@@ -120,11 +122,13 @@ function App() {
         <Route path='/services/taahut' element={< Taahut />} />
         <Route path='/services/drone' element={< Drone />} />
         <Route path='/services/sayisalyapi' element={< Sayisalyapi />} />
+        <Route path='/services/imarplani' element={< Imarplani />} />
+        <Route path='/services/madde18' element={< Madde18 />} />
       </Routes>
 
 
       <a
-        href="https://wa.me/905319244992?text=Merhaba,%20Size%20nasıl%20yardımcı%20olabiliriz?"
+        href="https://wa.me/905319244992?text=Merhaba,"
         target='_blank' className='btn-whatsapp'
       >
         <FaWhatsapp size={45} color="#25D366" />

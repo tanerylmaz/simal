@@ -3,6 +3,8 @@ import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import altyapi from '../../utils/images/altyapifoto.webp'
+import madde18 from '../../utils/images/madde18.webp'
+import imarplani from '../../utils/images/imarplanidegisiklik.webp'
 import anahtar from '../../utils/images/anahtarteslim.webp'
 import aplike from '../../utils/images/aplike.webp'
 import yüksekkatli from '../../utils/images/yuksekkatlifoto.webp'
@@ -59,7 +61,7 @@ function Services() {
                                         Plankote Hizmetleri
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        Mimari projelerin daha doğru ve etkin bir şekilde tasarlanabilmesi için Harita Mühendisleri tarafınca değişik ölçme şekilleri ile hazırlanan ve altlık olarak
+                                        Mimari projelerin daha doğru ve etkin bir şekilde tasarlanabilmesi için Harita Mühendisleri tarafınca değişik ölçme şekilleri ile hazırlanan ve altlık olarak <br />
                                         <Link to="/services/plankote">
                                             <button
                                                 type='button'
@@ -94,7 +96,7 @@ function Services() {
                                         İmar Barışı Hizmeti
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        İmara aykırı, ruhsatsız veya ruhsat eklerine aykırı yapıların kayıt altına alınması kanalıyla bu yapılara
+                                        İmara aykırı, ruhsatsız veya ruhsat eklerine aykırı yapıların kayıt altına alınması kanalıyla bu yapılara <br />
                                         <Link to="/services/imar">
                                             <button
                                                 type='button'
@@ -126,7 +128,7 @@ function Services() {
                                         Aplikasyon Ölçümleri
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        Aplikasyon; “Taşınmaza ait mülkiyet veya irtifak hakkı sınırlarının, tapu plânındaki data ve
+                                        Aplikasyon; “Taşınmaza ait mülkiyet veya irtifak hakkı sınırlarının, tapu plânındaki data ve <br />
                                         <Link to="/services/apliasyon">
                                             <button
                                                 type='button'
@@ -158,7 +160,7 @@ function Services() {
                                         Yola Terk İşlemi
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        Kamuya (yola) terk işlemi; bayındır planlarının gerçekleştirilmesi esnasında taşınmazın mal
+                                        Kamuya (yola) terk işlemi; bayındır planlarının gerçekleştirilmesi esnasında taşınmazın mal <br />
                                         <Link to="/services/terk">
                                             <button
                                                 type='button'
@@ -222,7 +224,7 @@ function Services() {
                                         Vaziyet ve Bağımsız Plan Hizmetleri
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        Vaziyet planı, bir projede bulunan inşaat alanındaki tüm varlıkların yerinin yayınlandıği ölçekli haritalara
+                                        Vaziyet planı, bir projede bulunan inşaat alanındaki tüm varlıkların yerinin yayınlandıği ölçekli haritalara <br />
                                         <Link to="/services/vaziyet">
                                             <button
                                                 type='button'
@@ -254,7 +256,7 @@ function Services() {
                                         İNŞAAT TAAHHÜT HİZMETLERİ
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        Şirket adına hertürlü inşaat yapmak üzere arsa almak, inşaatları tamamlayıp satmak, arsa sahibi olan gerçek ve tüzel kişilerle anlaşmalar yapıp
+                                        Şirket adına hertürlü inşaat yapmak üzere arsa almak, inşaatları tamamlayıp satmak, arsa sahibi olan gerçek ve tüzel kişilerle anlaşmalar yapıp <br />
                                         <Link to="/services/taahut">
                                             <button
                                                 type='button'
@@ -318,7 +320,7 @@ function Services() {
                                         Kübaj - Hacim Hesaplama İşlemi
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        Kübaj; sıkışma, kabarma, depo işlemleri göz önünde tutularak yapılan toprak hesabıdır. öteki bir anlam olarak, bir malzemenin hacmini hesaplama
+                                        Kübaj; sıkışma, kabarma, depo işlemleri göz önünde tutularak yapılan toprak hesabıdır. öteki bir anlam olarak, bir malzemenin hacmini hesaplama <br />
 
                                         <Link to="/services/hacim">
                                             <button
@@ -351,7 +353,7 @@ function Services() {
                                         3 Boyutlu Sayısal Yapı Modeli (City GML)
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        Kübaj; sıkışma, kabarma, depo işlemleri göz önünde tutularak yapılan toprak hesabıdır. öteki bir
+                                        Kübaj; sıkışma, kabarma, depo işlemleri göz önünde tutularak yapılan toprak hesabıdır. öteki bir <br />
 
                                         <Link to="/services/sayisalyapi">
                                             <button
@@ -404,7 +406,70 @@ function Services() {
 
 
 
-
+                <div className='col-lg-4'>
+                    <Card className='d-flex align-items-center text-center card-custom p-3'>
+                        <a href="services/imarplani" className='text-decoration-none text-dark w-100'>
+                            <div className='pt-3 pb-3'>
+                                <div className='mb-3'>
+                                    <img
+                                        className="img-fluid rounded"
+                                        style={{ maxHeight: '200px', objectFit: 'cover' }}
+                                        src={imarplani}
+                                        alt="imarplani Hizmetleri"
+                                    />
+                                </div>
+                                <Card.Body className='p-2'>
+                                    <Card.Title as="h3" className='mb-2 fw-bold fs-5'>
+                                        İmar Planı ve İmar Tadilat Projesi
+                                    </Card.Title>
+                                    <Card.Text className='mb-0 fs-6'>
+                                        Onaylı halihazırdaki haritalar üzerinde ve kadastral durumu işlenmiş olan arazi parçalarının kullanış biçimlerini, bölgedeki gelecekteki nüfus <br />
+                                        <Link to="/services/imarplani">
+                                            <button
+                                                type='button'
+                                                className='btn btn-danger btn-sm mx-0 mx-sm-2 my-2 my-sm-0'
+                                                style={{ position: 'relative', top: '15px' }}>
+                                                Devamı için
+                                            </button>
+                                        </Link>
+                                    </Card.Text>
+                                </Card.Body>
+                            </div>
+                        </a>
+                    </Card>
+                </div>
+                <div className='col-lg-4'>
+                    <Card className='d-flex align-items-center text-center card-custom p-3'>
+                        <a href="services/madde18" className='text-decoration-none text-dark w-100'>
+                            <div className='pt-3 pb-3'>
+                                <div className='mb-3'>
+                                    <img
+                                        className="img-fluid rounded"
+                                        style={{ maxHeight: '200px', objectFit: 'cover' }}
+                                        src={madde18}
+                                        alt="madde18 Hizmetleri"
+                                    />
+                                </div>
+                                <Card.Body className='p-2'>
+                                    <Card.Title as="h3" className='mb-2 fw-bold fs-5'>
+                                        18. Madde Uygulaması
+                                    </Card.Title>
+                                    <Card.Text className='mb-0 fs-6'>
+                                        İmar Kanunu'nun 18. Maddesi, yerleşim yerlerinde düzgün imar parselleri oluşturmayı amaçlar ve bu işlemi, belediyeler veya valilikler gibi yerel yönetim <br />
+                                        <Link to="/services/madde18">
+                                            <button
+                                                type='button'
+                                                className='btn btn-danger btn-sm mx-0 mx-sm-2 my-2 my-sm-0'
+                                                style={{ position: 'relative', top: '15px' }}>
+                                                Devamı için
+                                            </button>
+                                        </Link>
+                                    </Card.Text>
+                                </Card.Body>
+                            </div>
+                        </a>
+                    </Card>
+                </div>
                 <div className='col-lg-4'>
                     <Card className='d-flex align-items-center text-center card-custom p-3'>
                         <a href="services/altyapi" className='text-decoration-none text-dark w-100'>
@@ -422,7 +487,7 @@ function Services() {
                                         Altyapı ve GIS Ölçümleri
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        Coğrafi data Sistemleri (CBS) pek çok alanda olduğu benzer biçimde altyapı uygulamalarında da yoğun olarak kullanılmaktadır. Altyapı
+                                        Coğrafi data Sistemleri (CBS) pek çok alanda olduğu benzer biçimde altyapı uygulamalarında da yoğun olarak kullanılmaktadır. Altyapı <br />
                                         <Link to="/services/altyapi">
                                             <button
                                                 type='button'
@@ -454,7 +519,7 @@ function Services() {
                                         Deformasyon Ölçümleri
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        Deformasyon Ölçmeleri, mühendislik ölçmeleri içinde önemli bir yere ve konuma sahiptir. Gerek üzerinde yaşadığımız organik ortamda
+                                        Deformasyon Ölçmeleri, mühendislik ölçmeleri içinde önemli bir yere ve konuma sahiptir. Gerek üzerinde yaşadığımız organik ortamda <br />
                                         <Link to="/services/deformasyon">
                                             <button
                                                 type='button'
@@ -487,7 +552,7 @@ function Services() {
                                         Fenni Mesuliyet Hizmetleri
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        Yapının yürürlükteki kanun, imar planı, ilgili tüzük ve yönetmelik hükümleri, Türk Standartları Enstitüsü standartları, bilimsel kurallar, teknik şartnameler
+                                        Yapının yürürlükteki kanun, imar planı, ilgili tüzük ve yönetmelik hükümleri, Türk Standartları Enstitüsü standartları, bilimsel kurallar, teknik şartnameler <br />
                                         <Link to="/services/fenni">
                                             <button
                                                 type='button'
@@ -551,7 +616,7 @@ function Services() {
                                         Yüksek Katlı Betonarme Ölçüm Hizmetleri
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        Firmamız, yüksek katlı binalarda betonarme yada çelik yapılarla ilgili akla gelebilecek bütün ölçümleri,
+                                        Firmamız, yüksek katlı binalarda betonarme yada çelik yapılarla ilgili akla gelebilecek bütün ölçümleri <br />
                                         <Link to="/services/betonarme">
                                             <button
                                                 type='button'
@@ -647,7 +712,7 @@ function Services() {
                                         Yapı ve Konut Projeleri
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        İnsanların, hayvanları ve bitkilerin ihtiyaçlarını karşılamak için çeşitli yapı malzemeleri ile inşaa edilen tesislere yapı denir. Yapılar içerisindekileri
+                                        İnsanların, hayvanları ve bitkilerin ihtiyaçlarını karşılamak için çeşitli yapı malzemeleri ile inşaa edilen tesislere yapı denir. Yapılar içerisindekileri <br />
                                         <Link to="/services/konut">
                                             <button
                                                 type='button'
@@ -679,7 +744,7 @@ function Services() {
                                         Mimari , Statik Proje ve Ruhsatlandırma Hizmetleri
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        Yapı ruhsatı için istenen belgeler arasında mimari proje de yer almaktadır. Peki, mimari proje nedir?
+                                        Yapı ruhsatı için istenen belgeler arasında mimari proje de yer almaktadır. Peki, mimari proje nedir? <br />
                                         <Link to="/services/mimari">
                                             <button
                                                 type='button'
@@ -775,7 +840,7 @@ function Services() {
                                         Çevre Düzenlemeleri
                                     </Card.Title>
                                     <Card.Text className='mb-0 fs-6'>
-                                        Doğa, planlama ve tasarım ögelerini sistemli bir şekilde analiz yapan peyzaj mimarlığı, sanat, bilim, mühendislik ve teknolojiyi bir araya getirerek alan
+                                        Doğa, planlama ve tasarım ögelerini sistemli bir şekilde analiz yapan peyzaj mimarlığı, sanat, bilim, mühendislik ve teknolojiyi bir araya getirerek alan <br />
                                         <Link to="/services/cevre">
                                             <button
                                                 type='button'
@@ -809,24 +874,6 @@ export default Services;
 
 
 
-<div className='col-lg-4'>
-    <Card className='d-flex align-items-center h-100 text-center card-custom'>
-        <Link to="/services/plankote" className='text-decoration-none text-dark w-100'>
-            <div className='pt-5 pb-5'>
-                <div className='mb-4'>
-                    <FontAwesomeIcon icon={faTextHeight} size="5x" />
-                </div>
-                <Card.Body>
-                    <Card.Title as="h3" className='mb-3 fw-bold'>
-                        Plankote Hizmetleri
-                    </Card.Title>
-                    <Card.Text className='mb-0'>
-                        Mimari projelerin daha doğru ve etkin bir şekilde tasarlanabilmesi için Harita Mühendisleri tarafınca değişik ölçme şekilleri ile hazırlanan ve altlık olarak kullanılan ...
-                    </Card.Text>
-                </Card.Body>
-            </div>
-        </Link>
-    </Card>
-</div>
+
 
 
