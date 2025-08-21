@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4dae2108.css",
+    "main.js": "/static/js/main.1c60084e.js",
+    "static/media/harita.jpg": "/static/media/harita.3e9c4be2aedeb01d60ef.jpg",
+    "static/media/sem13.webp": "/static/media/sem13.631db9752bbc7f5b6479.webp",
+    "static/media/sem16.webp": "/static/media/sem16.9e82c97b2ae9501cf6be.webp",
+    "static/media/sem9.webp": "/static/media/sem9.176a7cef75f5519b0a9c.webp",
+    "static/media/sem8.webp": "/static/media/sem8.0a495c1608730974fee0.webp",
+    "static/media/sem5.webp": "/static/media/sem5.f758c70a81f2f09567ac.webp",
+    "static/media/sem12.webp": "/static/media/sem12.ade9bd91c7be897408b8.webp",
+    "static/media/blog1.jpg": "/static/media/blog1.160a0f92b14d26047872.jpg",
+    "static/media/sem14.webp": "/static/media/sem14.056e039dd2a648b1e598.webp",
+    "static/media/dans1.webp": "/static/media/dans1.63664c152bbf2eccf6b7.webp",
+    "static/media/etkl.JPG": "/static/media/etkl.d6eccf6072198860a13c.JPG",
+    "static/media/person1.jpg": "/static/media/person1.44db5f75c31c9f118ff7.jpg",
+    "static/media/istanbul.jpg": "/static/media/istanbul.80e572bf9593dfc6fe11.jpg",
+    "static/media/sem15.webp": "/static/media/sem15.411d25cbff43cf6f9fa3.webp",
+    "static/media/sem6.webp": "/static/media/sem6.dcdc489c793472429c9b.webp",
+    "static/media/blogsection.jpg": "/static/media/blogsection.7494e967c3650ffea8bf.jpg",
+    "static/media/sem4.webp": "/static/media/sem4.c760c685d8553c6f9d46.webp",
+    "static/media/sem17.webp": "/static/media/sem17.1740ca69a7599dac8c89.webp",
+    "static/media/sem2.webp": "/static/media/sem2.a11dae023136c6d36456.webp",
+    "static/media/blog3.jpg": "/static/media/blog3.4047531f798a379764e0.jpg",
+    "static/media/blog2.jpg": "/static/media/blog2.c96324dd6387e7b29f0b.jpg",
+    "static/media/sem3.webp": "/static/media/sem3.26cc175c92c181baf57a.webp",
+    "static/media/sem7.webp": "/static/media/sem7.67c37ec8bd38ddefc470.webp",
+    "static/media/blog4.jpg": "/static/media/blog4.2f805b04a62b7f268277.jpg",
+    "static/media/sem1.webp": "/static/media/sem1.16c820b506e95740d49c.webp",
+    "static/media/sem10.webp": "/static/media/sem10.b4f097e582522074105f.webp",
+    "static/media/ytfoto.webp": "/static/media/ytfoto.f1168c11174d909b5ea6.webp",
+    "index.html": "/index.html",
+    "main.4dae2108.css.map": "/static/css/main.4dae2108.css.map",
+    "main.1c60084e.js.map": "/static/js/main.1c60084e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dae2108.css",
+    "static/js/main.1c60084e.js"
+  ]
+}

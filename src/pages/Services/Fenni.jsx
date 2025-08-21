@@ -1,0 +1,51 @@
+import React from 'react';
+import fenni from '../../utils/images/fennimesuliyet-min.webp';
+
+function Fenni() {
+    return (
+        <div id="blog" className="container " >
+            <div className="row justify-content-center">
+
+                {/* Blog Centered */}
+                <div className="col-md-10 col-lg-8 mb-4" style={{ marginTop: '87px' }}>
+                    <div className="card shadow-sm border-0">
+
+                        {/* Resim */}
+                        <div className="text-center p-4">
+                            <img
+                                className="img-fluid rounded"
+                                style={{ maxHeight: '250px', objectFit: 'cover' }}
+                                src={fenni}
+                                alt="Fenni Hizmetleri"
+                            />
+                        </div>
+
+                        {/* İçerik */}
+                        <div className="card-body">
+                            <h3 className="card-title fw-bold mb-3 text-center">Fenni Mesüliyet Hizmeti</h3>
+
+                            <p>Fenni Mesül:
+
+                                Yapının yürürlükteki kanun, imar planı, ilgili tüzük ve yönetmelik hükümleri, Türk Standartları Enstitüsü standartları, bilimsel kurallar, teknik şartnameler, fen, sanat ve sıhhat kurallarına ve tüm mevzuat hükümlerine uygun olarak düzenlenen ruhsat eki projelerine uygun yapılıp yapılmadığını, aldığı tahsile nazaran denetleyen ve ilgili idareler ile HKMO`ya karşı görevli olan ofis/şirket sahibi ya da ortağı SHKM`dir.</p>
+
+                            <p>Fenni Mesül işleri:
+
+                                Fenni mesul: bina ve yapı yükseklik ve konumlarının 3 boyutlu koordinat sisteminde, mimari projeye, yapı aplikasyon projesine, bayındır planına ve konum planına uygun olarak inşa edilmesine ilişkin yapı sahibi yada vekili ile; yapı denetim kanunu kapsamında kalan yapılarda ise yapı denetim şirketi ile yapılan sözleşme ihtarnca SHKMMB tarafından meydana getirilen işlerdir.</p>
+
+                            <p> Fenni sorumlu sicil defteri:
+
+                                Fenni mesulün sorumlusu olduğu işlerin izlenmesi için hazırlanan kayıt defteridir. Bu defter Fenni Mesuliyeti üstlenilen yapının bulunmuş olduğu il/ilçenin şube/temsilciliğindeki Oda birimi yetkililerince doldurulur ve kayıtları ilgilisince HKMO-BİS üzerinden görülebilir.
+
+                                HKM: Harita ve Kadastro Mühendisi, Harita Mühendisi, Jeodezi ve Fotogrametri Mühendisi, Geomatik Mühendisi veya bu alandaki yüksek mühendislerdir. HKMO: TMMOB Harita ve Kadastro Mühendisleri Odasıdır. HKMOBİS: HKMO bilgi İşlem Sistemidir. İş bitirme belgesi: Ofis ve şirketlerin, Yapı Aplikasyon Projesi ve Proje Uygulaması veya Fenni Mesuliyetini üstlendiği yapının işverenle yaptığı sözleşme ve idareye verdiği taahhütname koşullarına nazaran tamamlandığına ilişkin ilgili idareden aldığı yazılı belgedir. İşveren: Mal sahibi gerçek birey, kamu veya özel hukuk tüzel kişilikleri ile kanuni vekilleridir. İşyeri teslim tutanağı: Yapı Denetimi Hakkında Kanun Kapsamı içindeki yapılarda; yapı ruhsatı alındıktan sonra yapı yapılacak parsele gidilerek yapı denetim şirketince hizmet satın alınan fenni mesul SHKM denetiminde ve ilgili yönetim nezaretinde; aplikasyon projesi müellifi ve uygulamacısı SHKM tarafınca: kadastral aplikasyon krokisi üretimi aşamasında arsanın arazideki belirlenmiş olan iyelik sınır nokta değerlerinin zemindeki işaretlenmiş mülkiyet noktalarına uygunluğunun saptanması ve yapının /yapıların konum planına uygun şekilde arsaya aplike edilmesi; aplikasyon kusurlarının giderilmesi; yapı yerinde belirlenen bu noktaların yapılan kati ölçü değerlerini gösteren aplikasyon krokisinin eklendiği; işyeri tesliminin yapıldığını ve inşai faaliyetlere başlandığını belgeleyen; arsa iyelik nokta koordinatlarını ve yapı köşe koordinatlarını (x,y,z) gösteren; müellif SHKM ve meydana getirilen ölçüleri yapı denetim müesseseu adına denetleyen fenni sorumlu SHKM, yapı sahibi, yapı müteahhidi yada yapı müteahhidi adına şantiye şefi ile yapı denetim kuruluşu tarafınca kaşelenip, imzalanıp ilgili idaresine sunulan; ilgili yönetim yetkililerince imzalanıp onaylanan tutanaktır.Yapı Denetimi Hakkında Kanun kapsamı dışındaki yapılar için düzenlenen işyeri teslim tutanağı için de aynı işlem 3194 sayılı İmar Kanunu hükümleri ihtarnca yapılır. Kadastral aplikasyon krokisi: Parselin tescilli kadastro verilerine bakılırsa Tapu Planları Tüzüğü ve BÖHHBÜY`e uygun olarak 5368 Sayılı Yasa ve Yönetmeliği gereğince lisanslandırılan HKM tarafınca, bulunmayan yerlerde ise Kadastro Müdürlüklerince araziye uygulaması yapılıp aplikasyon kusurları giderildikten sonra kesinleştirilerek düzenlenen ve imzalanıp onaylanan krokidir. Müellif: Yapının yürürlükteki kanun, imar planı, parselasyon planı, ilgili yönetmelik hükümleri, Türk Standartları Enstitüsü standartları, bilimsel kurallar, teknik şartnameler, fen, sanat ve sıhhat kurallarına ve tüm mevzuat hükümlerine uygun olarak aldığı eğitime nazaran Yapı Aplikasyon Projesini düzenleyen ve tatbik eden (aplike eden); ilgili idareler ile HKMO`ya karşı görevli olan ofis/şirket sahibi veya ortağı SHKM`dir. Müellif sicil defteri: Müellifin proje ve uygulama sorumluluğunu üstlendiği yapıya ilişkin işlerin izlenmesi için hazırlanan kayıt defteridir. Bu defter müellifin sorumlusu olduğu yapının bulunduğu il/ilçenin şube/temsilciliğindeki Oda birimi yetkililerince doldurulur ve kayıtları ilgilisince HKMOBİS üzerinden görülebilir. Plan: Bir cismin yatay bir düzlemle kesildiği varsayılarak çizilen ölçekli ara kesit resmi, yatay kesittir. Parselasyon planı: bayındır planının araziye uygulamasından sonra yapılacak rölöve ölçülerine bakılırsa teknik mevzuata uygun olarak sayısal ve çizgisel şekilde düzenlenen, boyut değiştirmeyen paftalar üzerine çizilen, kati parselasyon durumunu gösteren ve tapuya tescil işlemine esas alınan plândır. Proje uygulamacısı ve denetim elemanı: ofis/şirket sahibi ya da ortağı yetkili SHKM`nin yapı aplikasyon projesi ve uygulama sorumlusu ile fenni sorumluün sorumluluğunda ve denetiminde yapı aplikasyon projesi ve uygulaması ile fenni mesuliyet işlerini yürütecek büro/şirkette bir yıldır çalışan ihaleli işlerde anahtar teknik personel listesinde gösterilmeyen, tam gün istihdam edilen ve üstlenilen işlerin bitimine kadar görev yapacağı taahhüt edilen HKM`dir. Rölöve/ kati ölçü krokisi: yapılan yada yapılmakta olan bir yapının köşe noktaları ve boyutları ölçülerek, köşe noktalarının (x,y,z) değerleri ve noktalar arası boyutları belirtilen ve parsel içindeki konumunu gösteren, yaklaşık ölçekte çizilmiş ölçü krokisidir. SHKM: 3458 sayılı Mühendislik ve Mimarlık Hakkında Kanunun verdiği yetkiye dayanarak özgür harita mühendislik ve müşavirlik hizmetlerinden birini yada bir kaçını ücreti karşılığında, kendi hesabına veya kamu kuruluş ve kuruluşları haricinde bir kişi yada kuruluş ile ortaklaşa meydana getiren, büro/şirketini HKMO`ya tescil ettirmiş HKM`yi ifade eder. SHKMMB: serbest harita ve kadastro mühendislik müşavirlik hizmetleri yapmak üzere HKMO`ya kayıt ve tescilini yapmış olduran vergiye doğal olarak serbest harita ve kadastro mühendislik müşavirlik hizmeti üreten gerçek veya tüzel kişilikleri ifade eder. SHKMMB Oda sicil kayıt belgesi:Planlı Alanlar Tip İmar Yönetmeliği kapsamında Yapı Aplikasyon Projesi ve Proje Uygulama Sorumluluğu ile Fenni Mesuliyeti üstlenecek ofis ve şirketler adına yetkili SHKM`ye her bir iş için, sicil defterinde faal olan işlem sayısı ve toplam yapı inşaat alanı dikkate alınarak Oda tarafından verilen ve yapılacak yapının ada parsel bilgilerini içeren, ilgili kurumlara ibraz edilen belgedir. TMMOB: Türk Mühendis ve Mimar Odaları Birliği`dir. Toplu yapı: Bir yada uygulama imar planında belirlenen birden çok bayındır parseli üzerinde, onaylı yerleşim planına gore yapılmış veya yapılacak, altyapı tesisleri, ortak kullanım bölgeleri ve toplumsal tesisler ve hizmetler ile bu tarz şeylerin yönetimi bakımından birbiriyle bağlantılı birçok yapıyı ifade eder. Yapı aplikasyon projesi; Parsele ilişik kadastral aplikasyon krokisine dayanılarak, durum planına ve bağlarımsız bölüm planlarına göre yapının araziye ve katlara aplikasyonunu sağlamak üzere, yürürlükteki bayındır planında gösterilen ve bayındır vaziyet belgesinde belirtilen yapı yaklaşma mesafelerinin,yapı projelerine nazaran yapı, bağlarımsız bölümleri, eklenti, müştemilat, teknik altyapı ve parsel köşe nokta koordinatlarının ve yer denetim noktaları ile röper alınacak noktaların elektronik ortamda sayısal olarak data sistemlerine esas koordinatlarının BÖHHBÜY standartlarında üretilerek gösterildiği projeyi ifade eder. Konum planı: Parsellerde inşa edilecek yapıların, eklentilerinin ve müştemilatın, teknik alt yapıların, yapı ruhsatına esas projeleri ile yerleşim planındaki ölçülerine göre, denetim noktalarına dayalı halde, teknik mevzuata uygun olarak sayısal ve çizgisel şekilde düzenlenen, kat irtifakına yada kat mülkiyetine esas konumlarını gösteren harita ve planı, Toplu yapılarda; yapıların konumları, ortak nitelikteki bölgeler ve tesisler ve bu tarz şeylerin kullanış fakatç ve şekilleri, toplu yapı kapsamındaki parsel veya parsellerin hepsinı kapsayacak şekilde, bir tüm olarak onaylı imar planı hükümlerine ve parselasyon planlarına uygun olarak hazırlanmış mimari projede yer edinen yerleşim planını, Konum planını, ifade eder. Yapı aplikasyon projesi yapımı ve yapı yerine uygulaması: Yapı Aplikasyon projesinin hazırlanması ve yapı aplikasyon projesinin yapı yerine aplikasyonunun yürürlükteki mevzuat çerçevesinde yapı sahibi veya vekiliyle meydana getirilen sözleşme ihtarnca SHKMMB tarafından gerçekleştirilen işlerdir. Yapı denetim defteri: Fenni Mesullerin yapının proje ve ekleri ile yapı izin belgesi koşullarına, yürürlükteki yasa, yönetmelik, şartname, standartlar ve ilgili normlara uygun yapılması için, önerilerinin ve ikazlarının yazıldığı inşaat mahallinde tutulan defterdir. TİP Sözleşme: İçerikleri HKMO Yönetim Kurulunca belirlenen ve SHKMMB hisse sahibi HKMO`ler tarafınca üretecekleri hizmetler için kullanılacak HKMO`nun WEB sayfasından üye şifresi ile alınan iş yapım sözleşmeleridir.</p>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    );
+}
+
+export default Fenni;

@@ -1,0 +1,21 @@
+.home-page header {
+    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/homeimg.webp);
+    background-size: cover;
+    background-position: center -100px;
+    background-attachment: fixed;
+    height: 70vh;
+    /* header yüksekliği küçültüldü */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* içerik dikey ortalanır */
+    align-items: center;
+    /* içerik yatay ortalanır */
+    text-align: center;
+}
+
+
+header {
+    background-size: cover;
+    background-position: center;
+}
