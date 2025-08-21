@@ -1,5 +1,5 @@
 import React from 'react';
-import konut from '../../utils/images/yapıkonutproje-min.webp';
+import konut from '../../utils/images/yapikonfoto.webp';
 
 function Konut() {
     return (

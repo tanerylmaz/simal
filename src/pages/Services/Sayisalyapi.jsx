@@ -1,5 +1,5 @@
 import React from 'react';
-import sayyapi from '../../utils/images/sayisalyapi-min.webp';
+import sayyapi from '../../utils/images/sayyapifoto.webp';
 
 function Sayisalyapi() {
     return (

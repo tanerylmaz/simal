@@ -1,29 +1,36 @@
 import React from 'react'
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import plankote from '../../utils/images/plankoteölcü.webp';
-import aplike from '../../utils/images/aplike.webp';
-import imar from '../../utils/images/imarbarisi-min.webp';
-import terk from '../../utils/images/yolaterk-min.webp';
-import tevhid from '../../utils/images/ifraz-min.webp';
-import vaziyet from '../../utils/images/vaziyetplani-min.webp';
-import taahüt from '../../utils/images/taahhüt-min.webp';
-import drone from '../../utils/images/drone-min.webp';
-import kübaj from '../../utils/images/kübaj.webp';
+
+import altyapi from '../../utils/images/altyapifoto.webp'
+import anahtar from '../../utils/images/anahtarteslim.webp'
+import aplike from '../../utils/images/aplike.webp'
+import yüksekkatli from '../../utils/images/yuksekkatlifoto.webp'
+import celik from '../../utils/images/celik.webp'
+import cevre from '../../utils/images/cevredizayn.webp'
+import deformasyon from '../../utils/images/defofoto.webp'
+import drone from '../../utils/images/dronefoto.webp';
+import fenni from '../../utils/images/fennifoto.webp';
+import kübaj from '../../utils/images/hacimfoto.webp';
+import imar from '../../utils/images/imarbarisifoto.webp';
+import kamu from '../../utils/images/kamulastirmafoto.webp';
+import kamuproje from '../../utils/images/kamuprojefoto.webp';
+import konut from '../../utils/images/yapikonfoto.webp';
+import maden from '../../utils/images/madenfoto.webp';
+import mimari from '../../utils/images/mimartistatikfoto.webp';
+import plankote from '../../utils/images/planktotefoto.webp';
+import sayyapi from '../../utils/images/sayyapifoto.webp';
+import taahüt from '../../utils/images/taahutfoto.webp';
+import terk from '../../utils/images/yolaterkfoto.webp';
+import tevhid from '../../utils/images/ifrazfoto.webp';
+import vaziyet from '../../utils/images/vaziyetpfoto.webp';
 import yol from '../../utils/images/yolprofil.webp';
-import altyapi from '../../utils/images/altyapiölcüm-min.webp'
-import deformasyon from '../../utils/images/deformasyon-min.webp'
-import sayyapi from '../../utils/images/sayisalyapi-min.webp';
-import fenni from '../../utils/images/fennimesuliyet-min.webp';
-import kamu from '../../utils/images/kamulastirma-min.webp';
-import yüksekkatli from '../../utils/images/yüksekkatli-min.webp'
-import maden from '../../utils/images/maden-min.webp';
-import anahtar from '../../utils/images/anahtarteslim-min.webp'
-import konut from '../../utils/images/yapıkonutproje-min.webp';
-import mimari from '../../utils/images/mimaristatik-min.webp';
-import celik from '../../utils/images/celik-min.webp'
-import kamuproje from '../../utils/images/kamuproje-min.webp';
-import cevre from '../../utils/images/cevredüzenleme-min.webp'
+
+
+
+
+
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArchway, faBalanceScale, faBriefcase, faBucket, faChargingStation, faCity, faDungeon, faGem, faIndustry, faKey, faMapSigns, faObjectGroup, faRoad, faRoute, faRuler, faTextHeight, faUsers, faTasks, faDrumSteelpan, faClipboardList, faBuilding, faLeaf } from '@fortawesome/free-solid-svg-icons';

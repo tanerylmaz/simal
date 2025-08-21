@@ -1,5 +1,5 @@
 import React from 'react';
-import celik from '../../utils/images/celik-min.webp'
+import celik from '../../utils/images/celik.webp'
 
 function Celikproje() {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import anahtar from '../../utils/images/anahtarteslim-min.webp'
+import anahtar from '../../utils/images/anahtarteslim.webp'
 
 function Anahtar() {
     return (

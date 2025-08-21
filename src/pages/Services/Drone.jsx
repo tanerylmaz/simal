@@ -1,5 +1,5 @@
 import React from 'react';
-import drone from '../../utils/images/drone-min.webp';
+import drone from '../../utils/images/dronefoto.webp';
 
 function Drone() {
     return (

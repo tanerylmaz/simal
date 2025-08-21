@@ -1,5 +1,5 @@
 import React from 'react';
-import terk from '../../utils/images/yolaterk-min.webp';
+import terk from '../../utils/images/yolaterkfoto.webp';
 
 function Terk() {
     return (

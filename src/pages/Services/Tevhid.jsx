@@ -1,5 +1,5 @@
 import React from 'react';
-import tevhid from '../../utils/images/ifraz-min.webp';
+import tevhid from '../../utils/images/ifrazfoto.webp';
 
 function Tevhid() {
     return (

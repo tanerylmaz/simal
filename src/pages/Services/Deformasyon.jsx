@@ -1,5 +1,5 @@
 import React from 'react';
-import deformasyon from '../../utils/images/deformasyon-min.webp'
+import deformasyon from '../../utils/images/defofoto.webp'
 
 function Deformasyon() {
     return (

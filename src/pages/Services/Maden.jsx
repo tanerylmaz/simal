@@ -1,5 +1,5 @@
 import React from 'react';
-import maden from '../../utils/images/maden-min.webp';
+import maden from '../../utils/images/madenfoto.webp';
 
 function Maden() {
     return (

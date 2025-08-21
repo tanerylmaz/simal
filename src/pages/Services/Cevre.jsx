@@ -1,5 +1,5 @@
 import React from 'react';
-import cevre from '../../utils/images/cevredüzenleme-min.webp'
+import cevre from '../../utils/images/cevredizayn.webp'
 
 function Cevre() {
     return (

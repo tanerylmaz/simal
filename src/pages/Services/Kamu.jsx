@@ -1,5 +1,5 @@
 import React from 'react';
-import kamu from '../../utils/images/kamulastirma-min.webp';
+import kamu from '../../utils/images/kamulastirmafoto.webp';
 
 function Kamu() {
     return (

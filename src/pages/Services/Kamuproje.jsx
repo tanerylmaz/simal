@@ -1,5 +1,5 @@
 import React from 'react';
-import kamuproje from '../../utils/images/kamuproje-min.webp';
+import kamuproje from '../../utils/images/kamuprojefoto.webp';
 
 function Kamuproje() {
     return (

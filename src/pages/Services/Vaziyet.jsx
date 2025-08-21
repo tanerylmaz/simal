@@ -1,5 +1,5 @@
 import React from 'react';
-import vaziyet from '../../utils/images/vaziyetplani-min.webp';
+import vaziyet from '../../utils/images/vaziyetpfoto.webp';
 
 function Vaziyet() {
     return (

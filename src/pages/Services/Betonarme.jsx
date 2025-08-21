@@ -1,5 +1,5 @@
 import React from 'react';
-import yüksekkatli from '../../utils/images/yüksekkatli-min.webp'
+import yüksekkatli from '../../utils/images/yuksekkatlifoto.webp'
 
 function Betornarme() {
     return (

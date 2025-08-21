@@ -1,5 +1,5 @@
 import React from 'react';
-import imar from '../../utils/images/imarbarisi-min.webp';
+import imar from '../../utils/images/imarbarisifoto.webp';
 
 function Imar() {
     return (

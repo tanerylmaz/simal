@@ -1,5 +1,5 @@
 import React from 'react';
-import fenni from '../../utils/images/fennimesuliyet-min.webp';
+import fenni from '../../utils/images/fennifoto.webp';
 
 function Fenni() {
     return (

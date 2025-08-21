@@ -1,5 +1,5 @@
 import React from 'react';
-import plankote from '../../utils/images/plankoteölcü.webp';
+import plankote from '../../utils/images/planktotefoto.webp';
 
 function Plankote() {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import mimari from '../../utils/images/mimaristatik-min.webp';
+import mimari from '../../utils/images/mimartistatikfoto.webp';
 
 function Mimari() {
     return (

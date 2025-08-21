@@ -1,5 +1,5 @@
 import React from 'react';
-import altyapi from '../../utils/images/altyapiölcüm-min.webp'
+import altyapi from '../../utils/images/altyapifoto.webp'
 function Altyapi() {
     return (
         <div id="blog" className="container" >

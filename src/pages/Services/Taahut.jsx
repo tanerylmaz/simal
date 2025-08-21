@@ -1,5 +1,5 @@
 import React from 'react';
-import taahüt from '../../utils/images/taahhüt-min.webp';
+import taahüt from '../../utils/images/taahutfoto.webp';
 
 function Taahut() {
     return (

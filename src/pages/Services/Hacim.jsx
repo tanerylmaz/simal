@@ -1,5 +1,5 @@
 import React from 'react';
-import kübaj from '../../utils/images/kübaj.webp';
+import kübaj from '../../utils/images/hacimfoto.webp';
 
 function Hacim() {
     return (
