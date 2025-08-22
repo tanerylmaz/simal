@@ -128,7 +128,7 @@ function App() {
 
 
       <a
-        href="https://wa.me/905319244992?text=Merhaba,"
+        href="https://wa.me/905452070606?text=Merhaba,"
         target='_blank' className='btn-whatsapp'
       >
         <FaWhatsapp size={45} color="#25D366" />
